@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Timed Coding Quiz</title>
+</head>
+<body>
+   
+
+    <div class="container">
+       
+        <div id="question-container" class="hide">
+            <div class="container1">
+                <h1>Timer</h1>
+                <ul>
+                    <li class="instructions hide">You will have 10 minutes to complete the quiz</li>
+                    <li class="instructions hide">If you answer a question wrong, time will be subtracted</li>
+                    <li class="instructions hide">Click start to begin quiz</li>
+                </ul>
+                <p><span id ="second"></span></p>
+            </div>
+            <div class="countdown">10:00</div>
+        
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            
+            <button id="start-btn" class="start-btn btn">Start</button>
+                    
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>

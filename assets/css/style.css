@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    
+}
+
+.countdown {
+    display: inline-flex;
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+}
+
+li {
+    font-size: 20px;
+}
+.container {
+    width: 800px;
+    max-width: 80%;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    font-size: 30px;
+    color: black;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+.btn.correct {
+    background-color: green;
+}
+
+.btn.wrong {
+    background-color: red;
+}
+.start-btn, .next-btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
